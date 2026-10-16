@@ -12,13 +12,11 @@ public class ScannerIssuesDemoApp {
 
         System.out.print("Enter your age: ");
         int age = inputScanner.nextInt();
-        String newLine = inputScanner.nextLine(); //eat the new line
-        System.out.println(newLine);
+        inputScanner.nextLine(); //eat the new line
+
 
         System.out.println("Enter your favorite TV Show: ");
         String showName = inputScanner.nextLine();
-
-
 
         System.out.print("Enter the value of your car: ");
         double carValue = inputScanner.nextDouble();
